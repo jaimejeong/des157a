@@ -2,46 +2,63 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-9">
+    <meta charset="utf-8">
     <title>Jaime's GitHub Home Page</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
     <!-- add google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Unbounded:wght@300;400;700&family=Varela+Round&display=swap" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <h1>Jaime Jeong</h1>
-        <h2>DES 157A - Interactive Media II - Winter 2023!!!</h2>
-        <div id="banner">
+        <section class="top">
+        <h1 id="name">Jaime Jeong</h1>
+        <h2>DES 157A - Interactive Media II - Winter 2023</h2>
+        </section>
 
+        <div id="banner">
+           <img src="images/ghost2.png" alt="ghost illustration">
         </div>
     </header>
 
-    <main>
-        <div>
+    <main class="flexContainer">
+        <div id="leftCol">
             <h2>Studios</h2>
             <ul>
-                <li>Learning Journal</li>
-                <li>Mad Libs 2.0</li>
-                <li>Every Picture</li>
-                <li>Game On!</li>
+                <li><a href="">Learning Journal</a></li>
+                <li><a href="">Mad Libs 2.0</a></li>
+                <li><a href="">Every Picture</a></li>
+                <li><a href="">Game On!</a></li>
             </ul>
-            <h2>Experiments</h2>
+            <h2 id="exp">Experiments</h2>
             <ul>
-                <li>Experiment 1</li>
-                <li>Experiment 2</li>
+                <li><a href="exp/exp1.html">Experiment 1</a></li>
+                <li><a href="">Experiment 2</a></li>
             </ul>
         </div>
 
-        <div>
-            <h2>Research & Development</h2>
+        <div id="middleCol">
+            <h2>R & D</h2>
             <ul>
-                <li>Project Brief</li>
-                <li>Design Comp</li>
-                <li>change</li>
+                <li><a href="">Project Brief</a></li>
+                <li><a href="">Design Comp</a></li>
+                <li><a href="">Version 1</a></li>
+                <li><a href="">Version 2 (User Test)</a></li>
+                <li><a href="">User Test Results</a></li>
+            </ul>
+        </div>
+
+        <div id="rightCol">
+            <h2>Final</h2>
+            <ul>
+                <li><a href="">Final Project</a></li>
             </ul>
         </div>
     </main>
+
+    <footer>
+        <a href="mailto:&#106;&#109;&#106;&#101;&#111;&#110;&#103;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;">Email Me</a>
+    </footer>
 </body>
 </html>
