@@ -13,8 +13,6 @@
         <p></p>
     </div>
 
-
-
     <script>
         // user random number
         var userNum = prompt("Enter a number between 1 and 10", "");
@@ -26,51 +24,37 @@
             var randomVal = randomNum * numOfValues;
             var roundedRandomVal = Math.floor(randomVal);
             var finalNum = min + roundedRandomVal;
-            // console.log(finalNum);
             return finalNum;
         }
         
         // computer random number
         var computerNum = randomInt(1,10);
-        // console.log(`user number: ${userNum}`);
-        // console.log(`computer number: ${computerNum}`);
 
         var userText = document.querySelector('p');
-   
-        console.log(`You entered ${userNum}`);
 
-
-        // userText.innerHTML = `You entered ${userNum}.\n`;
         // function for guessing the number until they both match
         function guessFunc(userNum, computerNum) {
 
             // compare user number and computer number
             if (userNum == computerNum) {
-                // console.log("You guessed it right!");
                 userText.innerHTML += (`You entered ${userNum}.\n You guessed it right!\n`)
-               
             } else if (userNum > computerNum) {
                 console.log("Hint: enter a lower number");
                 var userNum = prompt("Try again. Hint: enter a lower number.", "");
-
-                // userNum = newNum;
                 guessFunc(userNum, computerNum);
             } else {
                 console.log("Hint: enter a higher number");
                 var userNum = prompt("Try again. Hint: enter a higher number.", "");
-                // userNum = newNum;
                 guessFunc(userNum, computerNum);
             }   
         }
         guessFunc(userNum, computerNum);
 
-
+        
         var treat = ['chocolate', 'candy', 'cookie', 'boba', 'icecream'];
         var randomTreat = treat[randomInt(0, treat.length - 1)];
 
         userText.innerHTML += `Congrats for coming all this way. We recommend you to treat yourself with ${randomTreat} today.\n`;
-        // console.log(`Congrats for coming all this way! We recommend you to treat yourself with ${randomTreat} today!`);
-        
     </script>
 </body>
 </html>
