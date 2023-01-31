@@ -8,7 +8,10 @@
 </head>
 <body>
     <h1>Experiment 2</h1>
-    <h2>Use Option + Command + J for Mac or Ctrl + Shift + J for Windows/Linux to open the console!</h2>
+    
+    <div>
+        <p></p>
+    </div>
 
 
 
@@ -21,10 +24,9 @@
             var numOfValues = max - min + 1;
             var randomNum = Math.random();
             var randomVal = randomNum * numOfValues;
-            // added 1 because the random number started from 0 instead of 1,
-            // is this where i add 1? where to fix this
             var roundedRandomVal = Math.floor(randomVal);
             var finalNum = min + roundedRandomVal;
+            // console.log(finalNum);
             return finalNum;
         }
         
@@ -33,34 +35,41 @@
         // console.log(`user number: ${userNum}`);
         // console.log(`computer number: ${computerNum}`);
 
+        var userText = document.querySelector('p');
+   
         console.log(`You entered ${userNum}`);
 
+
+        // userText.innerHTML = `You entered ${userNum}.\n`;
         // function for guessing the number until they both match
         function guessFunc(userNum, computerNum) {
+
             // compare user number and computer number
             if (userNum == computerNum) {
-                console.log("You guessed it right!");
-            }
-
-            else if (userNum > computerNum) {
+                // console.log("You guessed it right!");
+                userText.innerHTML += (`You entered ${userNum}.\n You guessed it right!\n`)
+               
+            } else if (userNum > computerNum) {
                 console.log("Hint: enter a lower number");
-                var userNum = prompt("Enter a number between 1 and 10", "");
-                // userNum = newNum;
-                guessFunc(userNum, computerNum);
-            }
+                var userNum = prompt("Try again. Hint: enter a lower number.", "");
 
-            else {
-                console.log("Hint: enter a higher number");
-                var userNum = prompt("Enter a number between 1 and 10", "");
                 // userNum = newNum;
                 guessFunc(userNum, computerNum);
-            }
+            } else {
+                console.log("Hint: enter a higher number");
+                var userNum = prompt("Try again. Hint: enter a higher number.", "");
+                // userNum = newNum;
+                guessFunc(userNum, computerNum);
+            }   
         }
         guessFunc(userNum, computerNum);
 
+
         var treat = ['chocolate', 'candy', 'cookie', 'boba', 'icecream'];
-        var randomTreat = treat[randomInt(0, 4)];
-        console.log(`Congrats for coming all this way! We recommend you to treat yourself with ${randomTreat} today!`);
+        var randomTreat = treat[randomInt(0, treat.length - 1)];
+
+        userText.innerHTML += `Congrats for coming all this way. We recommend you to treat yourself with ${randomTreat} today.\n`;
+        // console.log(`Congrats for coming all this way! We recommend you to treat yourself with ${randomTreat} today!`);
         
     </script>
 </body>
