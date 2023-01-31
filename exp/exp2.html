@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 2</title>
+</head>
+<body>
+    <h1>Experiment 2</h1>
+
+    <script>
+        // user random number
+        var userNum = prompt("Enter a number between 1 and 10", "");
+
+        // function for generating random integer
+        function randomInt(min, max) {
+            var numOfValues = max - min + 1;
+            var randomNum = Math.random();
+            var randomVal = randomNum * numOfValues;
+            // added 1 because the random number started from 0 instead of 1,
+            // is this where i add 1? where to fix this
+            var roundedRandomVal = Math.floor(randomVal);
+            var finalNum = min + roundedRandomVal;
+            return finalNum;
+        }
+        
+        // computer random number
+        var computerNum = randomInt(1,10);
+        // console.log(`user number: ${userNum}`);
+        console.log(`computer number: ${computerNum}`);
+
+        console.log(`You entered ${userNum}`);
+
+        // function for guessing the number until they both match
+        function guessFunc(userNum, computerNum) {
+            // compare user number and computer number
+            if (userNum == computerNum) {
+                console.log("You guessed it right!");
+            }
+
+            else if (userNum > computerNum) {
+                console.log("Hint: enter a lower number");
+                var userNum = prompt("Enter a number between 1 and 10", "");
+                // userNum = newNum;
+                guessFunc(userNum, computerNum);
+            }
+
+            else {
+                console.log("Hint: enter a higher number");
+                var userNum = prompt("Enter a number between 1 and 10", "");
+                // userNum = newNum;
+                guessFunc(userNum, computerNum);
+            }
+        }
+        guessFunc(userNum, computerNum);
+
+        var treat = ['chocolate', 'candy', 'cookie', 'boba', 'icecream'];
+        var randomTreat = treat[randomInt(0, 4)];
+        console.log(`Congrats for coming all this way! We recommend you to treat yourself with ${randomTreat} today!`);
+        
+    </script>
+</body>
+</html>
