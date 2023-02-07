@@ -1,0 +1,81 @@
+body {
+    background-image: url("images/redBackground.png");
+    background-color: red;
+    display: flex;
+    font-family: 'El Messiri', sans-serif;
+}
+
+main { 
+    background-color: #FDFFFC;
+    padding: 20px;
+    width: 460px;
+    height: 510px;
+    border-radius: 35px;
+    position: absolute;
+    left: 570px;
+    top: 105px;
+}
+
+#fullForm {
+    display: grid;
+    grid-template-columns: 0.3fr 0.6fr 1fr;
+}
+
+label, input {
+    margin: 10px;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 45px;
+    color: #2F1000;
+}
+
+#base {
+    margin: 10px;
+}
+
+#submitbutton {
+    text-align: center;
+    margin: auto;
+    /* display: flex; */
+    /* font-size: 20px; */
+    
+}
+
+#send-form {
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #4A9750;
+    color: white;
+    border-radius: 35px;
+    width: 116px;
+    height: 32px;
+    text-align: center;
+}
+
+.number {
+    margin: 20px;
+    padding: 3px 10px;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    color: #2F1000;
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #2F1000;
+}
+
+img {
+    position: absolute;
+    left: 130px;
+    top: 230px;
+}
+
+input {
+    background-color: #CECCCC;
+    border-radius: 12px;
+    width: 190px;
+    height: 42px;
+}

@@ -1,0 +1,16 @@
+h1 {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    /* width: 30%; */
+    align-items: center;
+}
+
+#wrapper {
+    display: flex;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+}
+
+header {
+    display: flex;
+}
