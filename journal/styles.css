@@ -74,3 +74,22 @@ time {
 p {
     color: #081009;
 }
+
+.next ul {
+    list-style-type: none;
+}
+
+.next ul a {
+    color: #FA824C;
+    background-color: white;
+    padding: 7px 17px;
+    border-radius: 50px;
+}
+
+.next {
+    font-size: 40px;
+    position: absolute;
+    right: 120px;
+    bottom: 350px;
+}
+
