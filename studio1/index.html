@@ -15,16 +15,27 @@
 
 <body>
     <div id="container">
+        <!-- left side -->
         <header>
             <img src="images/cocktail.svg" alt="cocktail illustration">
-            <img id="lights" src="images/lights.png" alt="fairy lights illustration">
         </header>
 
+        <!-- right side -->
         <main>
-            <h2>Generate Your Own Cocktail</h2>
-            <section id="input">
+            
+
+            <!-- first page -->
+            <section id="input" class="showing">
+
+                <!-- including submit button -->
                 <form id="myForm">
-                    <section id="fullForm">
+
+                    <!-- where should i put this?? right after main??  -->
+                    <h2>Generate Your Own Cocktail</h2>
+
+                    <!-- 1 to 5 -->
+                    <section id="formGrid">
+
                         <div class="circle">
                             <p class="number">1</p>
                         </div>
@@ -61,15 +72,20 @@
                         <label for="noun">Noun</label>
                         <input type="text" id="noun" required>
                     </section>
+
                     <section id="submitbutton">
                         <input type="submit" id="send-form" value="Submit">
                     </section>
+
                 </form>
+
             </section>
 
-            <section id="output">
-                <h3></h3>
-                <p></p>
+            <!-- second page -->
+            <section id="output" class="hidden">
+                <article id="madlib">
+                    
+                </article>
             </section>
         </main>
     </div>
