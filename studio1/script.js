@@ -1,10 +1,12 @@
-(function() {
+(function () {
     "use strict";
     console.log('reading js');
 
     const myForm = document.querySelector('#myForm');
+    const second = document.querySelector('#second');
     const secondpage = document.querySelector('#secondpage');
     const madlib = document.querySelector('#madlib');
+
 
     myForm.addEventListener('submit', function(event) {
         event.preventDefault();
@@ -31,7 +33,6 @@
         // const myText = `base: ${base} color: ${color}`;
         let myText;
 
-
         myText = `<h3>The cocktail base you choose is ${base}.</h3>`;
         // myText.getElementById(base).style.color = 'orange';
         if (base == 'gin') {
@@ -46,7 +47,21 @@
         else {
             myText += "<p>Let's make an old fashioned</p>"
         }
+        // myText+= `${color} ${adjective} ${fruit} ${noun}`
         secondpage.innerHTML = myText;
+    })
+
+    second.addEventListener('button', function(event) {
+        event.preventDefault();
+
+        let myText;
+
+        if (base == 'gin') {
+            myText = `<p>Your martini is going to be ${color} and ${adjective}. For this you will need 3 ounces of ${base}, 1 ounce of dry vermouth, 1 cup of ice cubes, and your chosen fruit, ${fruit}`;
+        }
+
+        madlib.innerHTML = myText;
+
     })
 
     // const submitButton = document.querySelectorAll('input[type=submit]');
@@ -54,23 +69,16 @@
     document.querySelector('#send-form').addEventListener('click', function(event) {
         event.preventDefault;
         document.getElementById('second').className = 'showing';
-        document.getElementById('show-recipe').className = 'showing';
-    } )
-
-    document.querySelector('#send-form').addEventListener('click', function(event) {
-        event.preventDefault;
         document.getElementById('input').className = 'hidden';
     })
 
 
-    document.querySelector('#show-recipe').addEventListener('click', function(event) {
+    document.querySelector('#recipebutton').addEventListener('click', function(event) {
         event.preventDefault;
         document.getElementById('output').className = 'showing';
-    } )
-
-    document.querySelector('#show-recipe').addEventListener('click', function(event) {
-        event.preventDefault;
         document.getElementById('second').className = 'hidden';
+        console.log("what is wrong");
     })
+
 
 }())
