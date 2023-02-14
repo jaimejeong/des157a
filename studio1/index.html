@@ -5,58 +5,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cocktail Generator Madlibs</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600&family=Marcellus&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600&family=Marcellus&display=swap"
+        rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
     <script src="script.js" defer></script>
 </head>
 
 <body>
-    <header>
-        <!-- <h1>Welcome to </h1> -->
-        <img src="images/cocktail.svg" alt="cocktail illustration">
-        <!-- image of cocktail -->
+    <div id="container">
+        <header>
+            <img src="images/cocktail.svg" alt="cocktail illustration">
+            <img id="lights" src="images/lights.png" alt="fairy lights illustration">
+        </header>
 
-    </header>
+        <main>
+            <h2>Generate Your Own Cocktail</h2>
+            <section id="input">
+                <form id="myForm">
+                    <section id="fullForm">
+                        <div class="circle">
+                            <p class="number">1</p>
+                        </div>
+                        <label for="base">Base</label>
+                        <select id="base" required>
+                            <option value="">Select...</option>
+                            <option value="gin">Gin</option>
+                            <option value="vodka">Vodka</option>
+                            <option value="rum">Rum</option>
+                            <option value="whiskey">Whiskey</option>
+                        </select>
 
-    <main>
-        <h2>Generate Your Own Cocktail</h2>
-        <section id="input">
-            <form>
-                <section id="fullForm">
-                    <p class="number">1</p>
-                    <label for="base">Base: </label>
-                    <select id="base">
-                        <option value="">---</option>
-                        <option value="gin">Gin</option>
-                        <option value="vodka">Vodka</option>
-                        <option value="rum">Rum</option>
-                        <option value="whiskey">Whiskey</option>
-                    </select>
+                        <div class="circle">
+                            <p class="number">2</p>
+                        </div>
+                        <label for="color">Color</label>
+                        <input type="text" id="color" required>
 
-                    <p class="number">2</p>
-                    <label for="color">Color: </label>
-                    <input type="text" id="color" required>
+                        <div class="circle">
+                            <p class="number">3</p>
+                        </div>
+                        <label for="adjective">Adjective</label>
+                        <input type="text" id="adjective" required>
 
-                    <p class="number">3</p>
-                    <label for="adjective">Adjective: </label>
-                    <input type="text" id="adjective" required>
+                        <div class="circle">
+                            <p class="number">4</p>
+                        </div>
+                        <label for="fruit">Fruit</label>
+                        <input type="text" id="fruit" required>
 
-                    <p class="number">4</p>
-                    <label for="fruit">Fruit: </label>
-                    <input type="text" id="fruit" required>
+                        <div class="circle">
+                            <p class="number">5</p>
+                        </div>
+                        <label for="noun">Noun</label>
+                        <input type="text" id="noun" required>
+                    </section>
+                    <section id="submitbutton">
+                        <input type="submit" id="send-form" value="Submit">
+                    </section>
+                </form>
+            </section>
 
-                    <p class="number">5</p>
-                    <label for="noun">Noun: </label>
-                    <input type="text" id="noun" required>
-                </section>
-                <section id="submitbutton">
-                    <input type="submit" id="send-form" value="Submit">
-                </section>
-            </form>
-        </section>
-    </main>
+            <section id="output">
+                <h3></h3>
+                <p></p>
+            </section>
+        </main>
+    </div>
 </body>
 
 </html>
