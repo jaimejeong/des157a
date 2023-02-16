@@ -161,7 +161,7 @@
             secondList = 
             `<ol>
             <li>Prep the glass by running a juicy lime wedge around the rim and then dipping the rim in salt.</li>
-            <li>Fill a cocktail shaker with ice. Add tequila, lime juice, and triple sec/ointreau.</li>
+            <li>Fill a cocktail shaker with ice. Add tequila, lime juice, and triple sec/Cointreau.</li>
             <li>Shake until mixed and chilled.</li>
             <li>Place some ice cubes in the glass and strain the mixture over the ice.</li>
             <li>Garnish with as many ${fruit} as you like.</li>
