@@ -22,6 +22,8 @@ main {
     border-radius: 35px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     animation: shadowMove 6s infinite;
+    display: grid;
+    place-content: center;
 }
 
 img {
@@ -142,11 +144,6 @@ select:focus {
 }
 
 /* second page that has a show recipe button */
-#second {
-    position: relative;
-    top: 25%;
-    /* transform: translate(0, 25%); */
-}
 
 #second h3 {
     color:#2F1000;
@@ -201,6 +198,7 @@ button:hover {
 #madlib h3 {
     font-size: 24px;
     text-decoration: underline;
+    text-decoration-color: #cfcfcf;
     margin: 0;
 }
 
@@ -211,6 +209,17 @@ button:hover {
 #madlib ul {
     column-count: 2;
     list-style-type: circle;
+}
+
+.inputStyle {
+    font-weight: bold;
+    color: #ce1310;
+}
+
+.cocktailName {
+    font-weight: bolder;
+    color: #002095;
+
 }
 
 .hidden {
