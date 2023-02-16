@@ -25,7 +25,7 @@
         <main>
         
             <!-- first page -->
-            <section id="input" class="showing">
+            <section id="input" class="s">
 
                 <!-- including submit button -->
                 <form id="myForm">
@@ -45,6 +45,7 @@
                             <option value="vodka">Vodka</option>
                             <option value="rum">Rum</option>
                             <option value="whiskey">Whiskey</option>
+                            <option value="tequila">Tequila</option>
                         </select>
 
                         <div class="circle">
@@ -73,6 +74,7 @@
                     </section>
 
                     <section id="submitbutton">
+                        <!-- <button type="button" id="send-form">Submit</button> -->
                         <input type="submit" id="send-form" value="Submit">
                     </section>
 
@@ -96,6 +98,11 @@
             <!-- last overaly : madlib outcome -->
             <section id="output" class="hidden">
                 <article id="madlib">
+                    <h3 id="ingredient"></h3>
+                    <ul id="ingredientList"></ul>
+                    <h3 id="recipe"></h3>
+                    <ul id="recipeList"></ul>
+                    <p></p>
                 </article>
             </section>
         </main>

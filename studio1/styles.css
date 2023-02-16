@@ -118,9 +118,6 @@ input[type="text"]:focus {
     border: 2px solid #357C95;
     outline: 0;
     background-color: white;
-    /* border:1px solid #D6D9DC;
-    outline: 0;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 /* dropdown menu */
@@ -146,18 +143,14 @@ select:focus {
 
 /* second page that has a show recipe button */
 #second {
-    /* background: blue; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
+    position: relative;
+    top: 25%;
+    /* transform: translate(0, 25%); */
 }
 
 #second h3 {
     color:#2F1000;
     font-size: 28px;
-    /* width: 240px; */
     margin: auto;
     line-height: 44px;
     font-weight: 400;
@@ -182,7 +175,7 @@ select:focus {
 }
 
 #recipebutton {
-    /* display: flex; */
+    text-align: center;
 }
 
 button {
@@ -201,15 +194,23 @@ button:hover {
    font-size: 21px;
 }
 
-#output {
-    background-color: red;
-    /* transition-property: opacity, visibility;
-    transition-delay: 1s;
-    transition-timing-function: ease; */
+#madlib {
+    font-size: 20px;  
 }
 
-#madlib {
-    background-color: black;
+#madlib h3 {
+    font-size: 24px;
+    text-decoration: underline;
+    margin: 0;
+}
+
+#madlib li {
+    line-height: 1.4em;
+}
+
+#madlib ul {
+    column-count: 2;
+    list-style-type: circle;
 }
 
 .hidden {
