@@ -15,7 +15,7 @@ h1 {
 p {
     /* background-color: white; */
     font-family: 'Tilt Neon', cursive;
-    padding: 0 230px;
+    padding: 0 212px;
     margin-top: 40px;
     margin-bottom: 0;
     font-size: 20px;
@@ -24,17 +24,20 @@ p {
 #container {
     display: flex;
     padding: 20px 0;
+    max-width: 1200px;
+    margin: auto;
 }
 
 #left {
     position: relative;
-    margin: 0 6vh;
+    margin: 0 20px;
 }
 
 #right {
     position:relative;
     margin: auto;
-    padding-right: 60px;
+    /* margin: auto 20px; */
+    padding: 0 30px;
 }
 
 
@@ -43,34 +46,47 @@ p {
     position: absolute;
 }
 
+/* stating width and height again because of the precise dimension; can't put decimal on img attribute */
 #watertower_th{
     bottom: 4px;
     left: 0;
+    width: 128.5px;
+    height: 215px;
 }
 
 #restaurant_th{
     bottom: 54px;
     left: 289.5px;
+    width: 265.5px;
+    height: 185.5px;
 }
 
 #grandpa_th {
     bottom: 200.5px;
     left: 125.5px;
+    width: 257.5px;
+    height: 165px;
 }
 
 #bigkong_th {
     bottom: 315px;
     left: 557.5px;
+    width: 132.5px;
+    height: 160px;
 }
 
 #kitty_th {
     bottom: 9.5px;
     left: 466px;
+    width: 224px;
+    height: 167.5px;
 }
 
 #house_th {
     bottom: 319.5px;
     left: -1px;
+    width:247.5px;
+    height: 185px;
 }
 
 /* visibility */
@@ -85,7 +101,7 @@ p {
 
 .vertical {
     max-height: 500px;
-    max-width: 350px;
+    max-width: 440px;
     /* max-width: 500px; */
 }
 
