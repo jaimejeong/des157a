@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Every Picture Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Iso&family=Tilt+Neon&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Analog Photography</h1>
+   
+    </header>
+    <p>Click sections to view the original photo!</p>
+    <div id="container">
+
+       <section id="left">
+            <!-- div is the place where you click-->
+            <div id="davis"><img src="images/daviscollage.png" class="hoverimage"></div>
+            <div id="seoul"><img src="images/seoulcollage.png"></div>
+            <img src="images/finalcollage.png" alt="film collage" id="background">
+        </section>
+
+        <!-- right section photo -->
+        <section id="right">
+            <article id="davispic" class="hidden">
+                <img src="images/davis.png" class="vertical">
+            </article>
+
+            <article id="seoulpic" class="hidden">
+                <img src="images/seoul.png" class="horizontal">
+            </article>
+        </section>
+    </div>
+    
+</body>
+</html>

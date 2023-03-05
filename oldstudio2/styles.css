@@ -1,0 +1,109 @@
+body {
+    /* background-image: url(images/blacknwhitefinal.png); */
+    background-repeat: no-repeat;
+    /* background-position: 50% -10%; */
+    background-color: #efede7;
+}
+
+header {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Rubik Iso', cursive;
+    font-size: 50px;
+    color: white;
+    margin: 0;
+    text-shadow: 0 1px 0 black;
+}
+
+p {
+    background-color: white;
+    font-family: 'Tilt Neon', cursive;
+}
+
+#container {
+    display: flex;
+    margin: 0 30px;
+}
+
+#left {
+    position: relative;
+    margin: 0 15px;
+}
+
+#right {
+    position: relative;
+    margin: 0 15px;
+}
+
+.hidden {
+    display: none;
+    /* visibility */
+}
+
+.showing {
+    display: block;
+}
+
+#background {
+    height: 550px;
+}
+
+#davis {
+    /* position: absolute; */
+    /* display: block;
+    
+    bottom: 4px;
+    left: 0;
+    width: 96px;
+    height: 249px;
+    background-color: red; */
+}
+
+#davis img {
+    position: absolute;
+    bottom: 4px;
+    height: 550px;
+}
+
+#seoul img {
+    position: absolute;
+    bottom: 4px;
+    height: 550px;
+}
+
+/* #seoul {
+    display: block;
+    position: absolute; */
+    /* background-color: green; */
+    /* bottom: 70px;
+    left: 350px;
+    width: 250px;
+    height: 180px;
+} */
+
+#seoul:hover{
+    cursor: pointer;
+}
+
+#davis:hover {
+    cursor: pointer;
+}
+
+.hoverimage {
+    cursor: pointer;
+}
+
+.vertical {
+    height: 550px;
+}
+
+.horizontal {
+    width: 550px;
+    position: absolute;
+    top: 90px;
+
+}

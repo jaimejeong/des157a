@@ -1,0 +1,86 @@
+body {
+    background-color: #efede7;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Rubik Iso', cursive;
+    font-size: 55px;
+    color: white;
+    margin:  20px 0;
+    text-shadow: 0 1px 0 black;
+}
+
+p {
+    /* background-color: white; */
+    font-family: 'Tilt Neon', cursive;
+    padding: 0 230px;
+    margin-top: 40px;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+#container {
+    display: flex;
+    padding: 20px 0;
+}
+
+#left {
+    position: relative;
+    margin: 0 6vh;
+}
+
+#right {
+    position:relative;
+    margin: auto;
+    padding-right: 60px;
+}
+
+
+/* thumbnails position */
+#watertower_th, #restaurant_th, #grandpa_th, #bigkong_th, #kitty_th{
+    position: absolute;
+}
+
+#watertower_th{
+    bottom: 4px;
+    left: 0;
+}
+
+#restaurant_th{
+    bottom: 54px;
+    left: 289.5px;
+}
+
+#grandpa_th {
+    bottom: 200.5px;
+    left: 125.5px;
+}
+
+#bigkong_th {
+    bottom: 315px;
+    left: 557.5px;
+}
+
+#kitty_th {
+    bottom: 9.5px;
+    left: 466px;
+}
+
+/* visibility */
+.hidden {
+    display: none;
+}
+
+.showing {
+    display: block;
+}
+
+
+.vertical {
+    max-height: 500px;
+    max-width: 350px;
+    /* max-width: 500px; */
+}
+
