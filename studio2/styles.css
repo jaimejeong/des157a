@@ -39,7 +39,7 @@ p {
 
 
 /* thumbnails position */
-#watertower_th, #restaurant_th, #grandpa_th, #bigkong_th, #kitty_th{
+#watertower_th, #restaurant_th, #grandpa_th, #bigkong_th, #kitty_th, #house_th{
     position: absolute;
 }
 
@@ -66,6 +66,11 @@ p {
 #kitty_th {
     bottom: 9.5px;
     left: 466px;
+}
+
+#house_th {
+    bottom: 319.5px;
+    left: -1px;
 }
 
 /* visibility */
