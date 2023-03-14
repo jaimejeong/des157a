@@ -51,7 +51,7 @@
             gameData.index = Math.round(Math.random());
             console.log(gameData.index);
 
-            gameControl.innerHTML = '<h2>The Game Has Started</h2>';
+            gameControl.innerHTML = '<h2>The Game of PIG</h2>';
 
             gameControl.innerHTML += '<button id="quit">Wanna Quit?</button>';
         

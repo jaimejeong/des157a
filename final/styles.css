@@ -1,9 +1,73 @@
-#background {
-    width: 1000px;
+body {
+    background-color: #f0ebe4;
+    transition: background-color 0.5s;
 }
 
-#sidenav {
+h1 {
+    font-family: 'Rubik Iso', cursive;
+    font-size: 50px;
+    color: white;
+    margin: 0;
+    text-shadow: 0 1px 0 black;
+    text-align: center;
+    z-index: 5;
+    position: absolute;
+    top: 3px;
+    left: 50%;
+}
+
+#left {
+    width: 1000px;
+    /* margin: auto; */
+    /* margin-left: 20%;
+    margin-right: 20%; */
+    position: relative;
+    transition: margin-left 1s;
+}
+
+.sidenav {
+    height: 100%;
+    z-index: 1;
+    background-color: rgb(0, 0, 0, 0.8);
+    position: fixed;
+    width: 0;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    transition: 1s;
+}
+
+/* #right {
+    background-color: aquamarine;
+} */
+/* #right {
     background-color: tomato;
     width: 300px;
     height: 700px;
+} */
+
+
+#grandpa_th {
+    position: absolute;
+    bottom: 332.5px;
+    left: 229.5px;
+
+    width: 340px;
+}
+
+.closebtn {
+    position: absolute;
+    bottom: 100px;
+    font-size: 46px;
+    right: 230px;
+    color: white;
+    text-decoration: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.showing {
+    display: block;
 }
