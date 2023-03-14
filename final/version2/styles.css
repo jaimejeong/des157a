@@ -16,6 +16,11 @@ h1 {
     left: 50%;
 }
 
+
+#grandpa:hover {
+    filter:brightness(50%);
+}
+
 #left {
     width: 1000px;
     /* margin: auto; */
