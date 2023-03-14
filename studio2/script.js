@@ -23,9 +23,9 @@
             // console.log(event.target.id);
     
             // hide all thumbnails
-            for (const thumbnail of thumbnails){
-                thumbnail.className='thumbnail hidden';
-            }
+            // for (const thumbnail of thumbnails){
+            //     thumbnail.className='thumbnail hidden';
+            // }
             // show this thubmnail
             document.getElementById(`${event.target.id}_th`).className = 'thumbnail showing';
            

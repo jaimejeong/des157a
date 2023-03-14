@@ -1,0 +1,176 @@
+body {
+    font-family: Arial;
+    color: #333;
+    padding: 50px;
+    line-height: 1.5em;
+    background-color: #FFC857;
+    /* font-family: 'Capriola', sans-serif; */
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+main {
+    width: 1000px;
+    margin: auto;
+}
+div {
+    text-align: center;
+}
+
+
+
+button { 
+    padding: 10px;
+}
+
+div {
+    padding: 15px;
+}
+
+
+#game img {
+    margin: 30px;
+}
+
+
+/* first section */
+#intro {
+    width: 500px;
+    background-color: white;
+    margin: auto;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+h1 {
+    text-align: center;
+    /* color: white; */
+    font-size: 42px;
+    border-bottom: 1px solid grey;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+#buttonbox {
+    margin: auto;
+}
+
+#introbutton {
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+/* second section */
+
+#maingame {
+    position: relative;
+}
+
+#game, #actions {
+    /* position: absolute; */
+}
+
+#game {
+    /* background-color:#eaeaea; */
+    bottom: 100px;
+    width: 100%;
+    margin: auto;
+}
+
+#die{
+    /* position: absolute; */
+    top:30%;
+    width: 100%;
+}
+
+p {
+    line-height: 27px;
+    margin: 25px 0;
+}
+
+#profile {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+    color: white;
+}
+
+.redBorder{
+    border: 5px solid #DB3A34;
+    padding: 0;
+    border-radius: 45px;
+    height: 202px;
+}
+
+.whiteBorder {
+    border: 5px solid white;
+    padding: 0;
+    border-radius: 45px;
+    height: 202px;
+}
+
+.redText {
+    color: #DB3A34;
+}
+
+.whiteText {
+    color: white;
+}
+
+#die {
+    /* display: flex; */
+    margin-top: 150px;
+}
+
+#die img {
+    margin: 30px;
+    margin-bottom: 0;
+}
+
+#score {
+    display: flex;
+    justify-content: space-between;
+    /* margin: 0 100px; */
+    position: absolute;
+    width: 80%;
+    bottom: 15%;
+    left: 9%;
+    /* background-color: red; */
+    z-index: -1;
+}
+
+#score1 {
+    /* line-height: 8px; */
+}
+
+#score h2 {
+    margin: 0;
+}
+
+#actions {
+    display: flex;
+    width: 100%;
+    /* margin: auto; */
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+#actions button {
+    margin: 0 20px;
+    color: white;
+    background-color: #323031;
+    border-radius: 20px;
+    text-decoration: none;
+    /* border: 5px solid #323031; */
+    /* box-shadow: 0 0 10px #FFC857; */
+}
+
+
+
+.hidden {
+    display: none;
+}
+
+.showing {
+    display: block;
+}
