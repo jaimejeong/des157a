@@ -17,8 +17,8 @@ h1 {
 }
 
 
-#grandpa:hover {
-    filter:brightness(50%);
+area:hover {
+    /* filter:brightness(50%); */
 }
 
 #left {

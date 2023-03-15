@@ -1,0 +1,103 @@
+body {
+    font-family: 'Rubik';
+    color: rgb(22, 22, 22);
+    background-color: rgb(250, 250, 250)
+}
+
+h1 {
+    font-family: 'Nunito';
+    margin: 0;
+    border-bottom: 3mm ridge rgba(166, 220, 50, 0.6);
+	font-size: 36px;
+    /* color: white;
+	text-shadow: -1px 1px 0 rgb(156, 190, 87),
+				 1px 1px 0 rgb(77, 120, 52),
+				 -1px -1px 0 #000,
+                 1px -1px 0 rgb(51, 61, 47); */
+    color: rgb(44, 57, 23);
+			
+}
+
+h2 {
+    font-family: 'Nunito';
+    margin: 10px 0;
+    color: white;
+    text-shadow: -1px 1px 0 rgb(18, 64, 18),
+				 1px 1px 0 rgb(18, 64, 18),
+				 1px -1px 0 rgb(18, 64, 18),
+                 -1px -1px 0 rgb(18, 64, 18);
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 17px;
+    margin-bottom: 24px;
+
+}
+
+p {
+    font-size: 17px;
+    line-height: 1.4em;
+    margin: 0;
+}
+
+#brief {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    column-gap: 70px;
+
+}
+
+#container, #container2 {
+    width: 1000px;
+    padding: 20px;
+    margin: auto;
+}
+
+/* usertest.html styling */
+#container2 h2 {
+    font-size: 27px;
+    padding-top: 30px;
+}
+#users {
+    display: flex;
+    justify-content: space-between;
+}
+
+#users img {
+    width: 300px;
+}
+
+.observe p{
+    padding-top: 10px;
+    padding-bottom: 6px;
+}
+
+ol {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 60px;
+    padding-left: 20px;
+}
+
+ol li {
+    color: green;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+ul li {
+    font-size: 17px;
+    line-height: 1.4em;
+    list-style-type: circle;
+
+}
+
+ul {
+    margin-top: 6px;
+}
+#plan p {
+    color: green;
+    font-size: 18px;
+}
