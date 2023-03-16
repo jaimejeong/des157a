@@ -1,0 +1,213 @@
+body {
+    background-color: #f0ebe4;
+    transition: background-color 0.5s;
+}
+
+h1 {
+    font-family: 'Rubik Iso', cursive;
+    font-size: 50px;
+    color: white;
+    margin: 0;
+    text-shadow: 0 1px 0 black;
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    top: 3px;
+    left: 50%;
+}
+
+/* #container {
+    margin: auto;
+    width: 1000px;
+} */
+
+area:hover {
+    /* filter:brightness(50%); */
+}
+
+#left {
+    width: 1000px;
+    /* margin: auto; */
+    /* margin-left: 20%;
+    margin-right: 20%; */
+    position: relative;
+    transition: margin-left 1s;
+}
+
+.sidenav {
+    height: 100%;
+    z-index: 1;
+    background-color: rgb(0, 0, 0, 0.7);
+    position: fixed;
+    width: 0;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    transition: 1s;
+}
+
+#right {
+    /* position: relative; */
+}
+
+/* #right {
+    background-color: tomato;
+    width: 300px;
+    height: 700px;
+} */
+
+
+/* thumbnail position */
+#grandpa_th {
+    position: absolute;
+    bottom: 332.5px;
+    left: 229.5px;
+    width: 340px;
+}
+
+#watertower_th {
+    position: absolute;
+    bottom: 40.5px;
+    left: 9px;
+    width: 221px;  
+}
+
+#bigkong_th {
+    position: absolute;
+    bottom: 479px;
+    left: 793px;
+    width: 205.5px;
+}
+
+#gelato_th {
+    position: absolute;
+    bottom: 225px;
+    left: 299.5px;
+    width: 195px;
+}
+
+#restaurant_th {
+    position: absolute;
+    bottom: 155px;
+    left: 442px;
+    width: 329px;
+}
+
+#house_th {
+    position: absolute;
+    bottom: 491.5px;
+    left: 69.5px;
+    width: 312.5px;
+}
+
+#berkeley_th {
+    position: absolute;
+    bottom: 353px;
+    left: 509px;
+    width: 281px;
+}
+
+#cloud_th {
+    position: absolute;
+    bottom: 4.5px;
+    left: 469.5px;
+    width: 311px;
+}
+
+#nature_th {
+    position: absolute;
+    bottom: 194.6px;
+    left: 706.5px;
+    width: 263.5px;
+}
+
+#leaves_th {
+    position: absolute;
+    bottom: 269.5px;
+    left: 205px;
+    width: 104px;
+}
+
+#tahoe_th {
+    position: absolute;
+    bottom: 125.5px;
+    left: 167px;
+    width: 209px;
+}
+
+#sidekong_th {
+    position: absolute;
+    bottom: 66px;
+    left: 225.5px;
+    width: 316px;
+}
+
+#cat_th {
+    position: absolute;
+    bottom: 90px;
+    left: 669px;
+    width: 295px;
+}
+
+#horse_th {
+    position: absolute;
+    bottom: 268.5px;
+    left: 48.5px;
+    width: 199px;
+}
+
+#seoul_th {
+    position: absolute;
+    bottom: 514px;
+    left: 364.5px;
+    width: 290px;
+}
+
+#gallery_th {
+    position: absolute;
+    bottom: 569px;
+    left: 615px;
+    width: 313px;
+}
+
+/* right side */
+.closebtn {
+    position: absolute;
+    bottom: 60px;
+    font-size: 46px;
+    right: 230px;
+    color: white;
+    text-decoration: none;
+    z-index: 3;
+}
+
+.vertical {
+    max-width: 500px;
+    max-height: 600px;
+}
+
+#imagefull {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.hidden {
+    display: none;
+}
+
+.showing {
+    display: block;
+}
+
+footer p {
+    /* font-family: 'Space Grotesk', sans-serif; */
+    font-family: 'Cousine', monospace;
+    font-size: 16px;
+    position:absolute;
+    margin: 0;
+    bottom: 20px;
+    margin-left: 50px;
+}
