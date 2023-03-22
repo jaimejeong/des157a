@@ -37,7 +37,8 @@ area:hover {
 .sidenav {
     height: 100%;
     z-index: 1;
-    /* background-color: rgb(0, 0, 0, 0.7); */
+    background-color: rgb(0, 0, 0, 0.7);
+    /* background-color: white; */
     position: fixed;
     width: 0;
     top: 0;
@@ -65,7 +66,21 @@ area:hover {
     width: 340px;
 }
 
+#grandpa_sel {
+    position: absolute;
+    bottom: 336px;
+    left: 234px;
+    width: 332px;
+}
+
 #watertower_th {
+    position: absolute;
+    bottom: 40.5px;
+    left: 9px;
+    width: 221px;  
+}
+
+#watertower_sel {
     position: absolute;
     bottom: 40.5px;
     left: 9px;
@@ -202,12 +217,22 @@ area:hover {
     display: block;
 }
 
+h2, p {
+    color: white;
+    /* font-family: 'Rubik Iso', cursive; */
+    font-family: 'Sono', monospace;
+    padding: 10px 20px;
+}
+
 footer p {
+    color: black;
     /* font-family: 'Space Grotesk', sans-serif; */
     font-family: 'Cousine', monospace;
     font-size: 16px;
     position:absolute;
     margin: 0;
-    bottom: 20px;
+    bottom: 12px;
     margin-left: 50px;
 }
+
+
