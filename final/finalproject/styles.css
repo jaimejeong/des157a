@@ -16,20 +16,8 @@ h1 {
     left: 50%;
 }
 
-/* #container {
-    margin: auto;
-    width: 1000px;
-} */
-
-area:hover {
-    /* filter:brightness(50%); */
-}
-
 #left {
     width: 1000px;
-    /* margin: auto; */
-    /* margin-left: 20%;
-    margin-right: 20%; */
     position: relative;
     transition: margin-left 1s;
 }
@@ -38,7 +26,6 @@ area:hover {
     height: 100%;
     z-index: 1;
     background-color: rgb(0, 0, 0, 0.7);
-    /* background-color: white; */
     position: fixed;
     width: 0;
     top: 0;
@@ -46,16 +33,6 @@ area:hover {
     overflow-x: hidden;
     transition: 1s;
 }
-
-#right {
-    /* position: relative; */
-}
-
-/* #right {
-    background-color: tomato;
-    width: 300px;
-    height: 700px;
-} */
 
 
 /* thumbnail position */
