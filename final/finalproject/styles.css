@@ -68,8 +68,8 @@ area:hover {
 
 #grandpa_sel {
     position: absolute;
-    bottom: 336px;
-    left: 234px;
+    bottom: 336.6px;
+    left: 233.5px;
     width: 332px;
 }
 
@@ -87,7 +87,7 @@ area:hover {
     width: 221px;  
 }
 
-#bigkong_th {
+#bigkong_th, #bigkong_sel {
     position: absolute;
     bottom: 479px;
     left: 793px;
@@ -101,84 +101,91 @@ area:hover {
     width: 195px;
 }
 
-#restaurant_th {
+#gelato_sel {
+    position: absolute;
+    bottom: 225px;
+    left: 299.5px;
+    width: 195px;
+}
+
+#restaurant_th, #restaurant_sel {
     position: absolute;
     bottom: 155px;
     left: 442px;
     width: 329px;
 }
 
-#house_th {
+#house_th, #house_sel {
     position: absolute;
     bottom: 491.5px;
     left: 69.5px;
     width: 312.5px;
 }
 
-#berkeley_th {
+#berkeley_th, #berkeley_sel {
     position: absolute;
     bottom: 353px;
     left: 509px;
     width: 281px;
 }
 
-#cloud_th {
+#cloud_th, #cloud_sel {
     position: absolute;
     bottom: 4.5px;
     left: 469.5px;
     width: 311px;
 }
 
-#nature_th {
+#nature_th, #nature_sel {
     position: absolute;
     bottom: 194.6px;
     left: 706.5px;
     width: 263.5px;
 }
 
-#leaves_th {
+#leaves_th, #leaves_sel {
     position: absolute;
     bottom: 269.5px;
     left: 205px;
     width: 104px;
 }
 
-#tahoe_th {
+#tahoe_th, #tahoe_sel {
     position: absolute;
     bottom: 125.5px;
     left: 167px;
     width: 209px;
 }
 
-#sidekong_th {
+#sidekong_th, #sidekong_sel{
     position: absolute;
     bottom: 66px;
     left: 225.5px;
     width: 316px;
 }
 
-#cat_th {
+#cat_th, #cat_sel {
     position: absolute;
     bottom: 90px;
     left: 669px;
     width: 295px;
 }
 
-#horse_th {
+#horse_th, #horse_sel {
     position: absolute;
     bottom: 268.5px;
     left: 48.5px;
     width: 199px;
 }
 
-#seoul_th {
+#seoul_th, #seoul_sel {
     position: absolute;
     bottom: 514px;
     left: 364.5px;
     width: 290px;
 }
 
-#gallery_th {
+#gallery_th, #gallery_sel {
     position: absolute;
     bottom: 569px;
     left: 615px;

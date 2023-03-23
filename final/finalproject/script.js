@@ -35,23 +35,17 @@
             imagefull.src = `images/${area.id}_full.png`;
             articleimage.className='showing';
 
-            let currentid = `${area.id}_sel`;
+            // let currentid = `${area.id}_sel`;
 
+            // if (currentid == 'grandpa_sel') {
+            //     newheading.innerHTML = 'Grandparents from Busan, South Korea';
+            //     para.innerHTML = "took the train with my mom and visited my grandparents for grandpa's birthday";
+            // }
 
-            if (currentid == 'grandpa_sel') {
-                newheading.innerHTML = 'Grandparents from Busan, South Korea';
-                para.innerHTML = "took the train with my mom and visited my grandparents for grandpa's birthday";
-            }
-
-            else if (currentid == 'watertower_sel') {
-                newheading.innerHTML = 'Watertower on campus';
-                para.innerHTML = "this picture is from last winter quarter";
-            }
-
-            // add image with selected state, change id
-            // document.getElementById(`${area.id}_sel`).className = 'select showing';
-            // hide thumbnail, thumbnail hidden
-            // document.querySelectorAll(`${area.id}_sel`).className = 'select hidden';
+            // else if (currentid == 'watertower_sel') {
+            //     newheading.innerHTML = 'Watertower on campus';
+            //     para.innerHTML = "this picture is from last winter quarter";
+            // }
         });
 
         document.getElementById(`${area.id}_th`).addEventListener('mouseout', function() {
@@ -66,9 +60,6 @@
             for (const select of selects) {
                 select.className = 'select hidden';
             }
-            // document.querySelectorAll(`${area.id}_sel`).className = 'select hidden';
-            // document.getElementById(`${area.id}_th`).className = 'thumbnail hidden';
-
         })
     }
 
